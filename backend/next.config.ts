@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  distDir: "out",   // 👈 IMPORTANT (force output folder)
-  trailingSlash: true,
+  trailingSlash: true
 };
 
 export default nextConfig;
