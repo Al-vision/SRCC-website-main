@@ -89,7 +89,7 @@ const caseStudies: CaseStudy[] = [
   const API_URL =
   process.env.NODE_ENV === "production"
     ? "https://srccweb.s3-website.ap-south-1.amazonaws.com/api/send-lead"
-    : "http://localhost:3001/api/send-lead";
+    : "http://localhost:3002/api/send-lead";
 
 const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();

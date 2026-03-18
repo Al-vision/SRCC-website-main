@@ -180,7 +180,7 @@ const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, source }) => {
 const API_URL =
   process.env.NODE_ENV === "production"
     ? "https://srccweb.s3-website.ap-south-1.amazonaws.com/api/send-email"
-    : "http://localhost:3001/api/send-email";
+    : "http://localhost:3002/api/send-email";
 
 
 const handleSubmit = async (e: FormEvent) => {
